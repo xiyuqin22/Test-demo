@@ -6,8 +6,9 @@
 2.查看一个文件修改前后的差异：
 ① git diff
 
-3.提交修改信息到远端：
+3.想要修改内容后提交修改信息到远端，如何用指令实现：
 ① git push -u origin main
+② git push origin main
 
 4.在未把修改添加到暂存区之前，如何用指令恢复到修改之前的状态：
 ① git checkout -- git_cmd.c
@@ -18,5 +19,8 @@
 6.想要回到项目上一版本或指令版本时，如何通过指令实现：
 ① git reset --hard HEAD^
 ② git reset --hard d0c20fba4da2ca2dc860d7de48b9d0c5446b1d28 或 d0c20fba
+
+7.想要将某一个文件回到制定版本时，如何通过指令实现：
+① git checkout d0c20fba --git_cmd.c
 
 
