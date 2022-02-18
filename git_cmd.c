@@ -28,3 +28,10 @@
 ② git tag d0c20fba v1.0 ==> 在某一笔commit上创建tag
 ③ git tag -d v1.0 或 v0.5
 ④ git push origin v1.0
+
+9.创建、删除以及切换分支：
+① git branch dev
+② git branch -d dev ==>不能删除当前分支或不能删除有修改内容的分支
+③ git branch -D dev ==>强制删除分支
+④ git checkout dev ==>切换分支
+⑤ git checkout -b dev ==>创建分支且切到该分支
