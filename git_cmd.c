@@ -23,4 +23,8 @@
 7.想要将某一个文件回到制定版本时，如何通过指令实现：
 ① git checkout d0c20fba --git_cmd.c
 
-
+8.如何创建、删除tag以及上传到服务器：
+① git tag v1.0 ==> 在当前commit上创建tag
+② git tag d0c20fba v1.0 ==> 在某一笔commit上创建tag
+③ git tag -d v1.0 或 v0.5
+④ git push origin v1.0
